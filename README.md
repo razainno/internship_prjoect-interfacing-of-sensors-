@@ -31,6 +31,16 @@ hardware connection of H9740 and teensy4.0 has following pin connection . I am u
 - GND pin is connected with GND pin of TEENSY4.0
 - FOR right encoder channel A and channel B are connected with pin-0 and pin-1 of TEENSY Controller respectavely.
 - FOR Left encoder channel A and channel B are connected with pin-2 and pin-3 of TEENSY Controller respectavely.
+
+# Program the teensy4.0
+> To program the teensy 4.0 ihave follow tese step
+- Installation arduino software 
+- Installation of Teensyduino software, which allow us to program the Teensy controller with arduino software
+- installation of libraries in for encoder and mpu-9250 in teensyduino, both libraries are attached this repository.
+- i have the written the sktech to read the data fro both sensor the arduino file is attached with this repository with name "mpu_encoder_interface.ino".
+
+
+
 # Output Result
 >output result contain the data reading of the both sensor on  serial monitor of the teensyduino, output is given below in figure
 ![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/output.PNG)
