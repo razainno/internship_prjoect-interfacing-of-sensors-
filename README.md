@@ -29,4 +29,4 @@
 - FOR Left encoder channel A and channel B are connected with pin-2 and pin-3 of TEENSY Controller respectavely.
 # Output Result
 >output result contain the data reading of the both sensor on  serial monitor of the teensyduino, output is given below in figure
-![alt text](![alt text](![https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/output.PNG)
+![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/output.PNG)
