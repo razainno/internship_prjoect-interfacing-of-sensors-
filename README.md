@@ -21,6 +21,7 @@
 
 # Interfacing encoder H9740 with Teensy4.0
 > H9740  has 4 pin on its ICS the specific model has been shown below in figure 
+
 ![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/H9740.JPG)
 
 
