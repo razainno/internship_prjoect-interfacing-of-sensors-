@@ -22,7 +22,7 @@
 # Interfacing encoder H9740 with Teensy4.0
 > H9740  has 4 pin on its ICS the specific model has been shown below in figure 
 ![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/H9740.JPG)
-> hardware connection of H9740 and teensy4.0 has following pin connection . I am using two H9740 encoder with name Right and left
+hardware connection of H9740 and teensy4.0 has following pin connection . I am using two H9740 encoder with name Right and left
 - VIN Pin is connected with 5v pin of TEENSY4.0
 - GND pin is connected with GND pin of TEENSY4.0
 - FOR right encoder channel A and channel B are connected with pin-0 and pin-1 of TEENSY Controller respectavely.
