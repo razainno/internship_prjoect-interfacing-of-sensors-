@@ -4,7 +4,9 @@
 # Interfacing MPU-9250 with Teensy4.0
 > MPU-9250 has 10 pin on its chips the specific model has been shown below in figure 
 ![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/mpu_9250.JPG)
-> hardware connection of mpu-9250 and teensy4.0 has following pin connection
+
+
+ hardware connection of mpu-9250 and teensy4.0 has following pin connection
 - Vcc pin of mpu-9250 is connected with 3v pin of Teeny4.0 
 - GND pin of mpu-9250 is connected with GND pin of Teeny4.0
 - SCL pin of mpu-9250 is connected with  pin-19 of Teeny4.0, its also connected with pin-16
@@ -27,4 +29,4 @@
 - FOR Left encoder channel A and channel B are connected with pin-2 and pin-3 of TEENSY Controller respectavely.
 # Output Result
 >output result contain the data reading of the both sensor on  serial monitor of the teensyduino, output is given below in figure
-![alt text](![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/H9740.JPG))
+![alt text](![alt text](![https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/output.PNG)
