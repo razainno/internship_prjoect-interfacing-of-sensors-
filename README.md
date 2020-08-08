@@ -12,4 +12,19 @@
 - ECL,EDA and NCS pins of mpu-9250 are not connected
 - AD0  AND FSYNC pins of mpu-9250 are Grounded,ADO is used to select the address(ox68)
 - INT pin of mpu-9250 is used for inturrupt, but in my case it is not connected 
+
+
 ![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/mpu2.JPG)
+##
+
+# Interfacing encoder H9740 with Teensy4.0
+> H9740  has 4 pin on its ICS the specific model has been shown below in figure 
+![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/H9740.JPG)
+> hardware connection of H9740 and teensy4.0 has following pin connection . I am using two H9740 encoder with name Right and left
+- VIN Pin is connected with 5v pin of TEENSY4.0
+- GND pin is connected with GND pin of TEENSY4.0
+- FOR right encoder channel A and channel B are connected with pin-0 and pin-1 of TEENSY Controller respectavely.
+- FOR Left encoder channel A and channel B are connected with pin-2 and pin-3 of TEENSY Controller respectavely.
+# Output Result
+>output result contain the data reading of the both sensor on  serial monitor of the teensyduino, output is given below in figure
+![alt text](![alt text](https://github.com/razainno/mpu-9250_sensor-and-encoder-interfacing-with-Teensy4.0/blob/master/H9740.JPG))
